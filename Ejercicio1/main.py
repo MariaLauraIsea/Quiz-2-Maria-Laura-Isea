@@ -114,7 +114,6 @@ def main():
         if opcion==1:
             print('---INVENTARIO DE VENTAS NARANJA---')
             for e in electrodomesticos:
-                #tipo=e.tipo
                 e.mostrar()
 
         elif opcion==2:
